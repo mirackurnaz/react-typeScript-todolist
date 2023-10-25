@@ -1,0 +1,58 @@
+.maincard {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+ 
+}
+.maincardinput {
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+.maincardbutton {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: teal;
+  color: white;
+}
+.maincardbutton:hover{
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid blueviolet;
+}
+
+.todocart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 350px;
+  border: 1px solid teal;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: teal;
+  color: white;
+}
+.cardH1{
+  text-align: center;
+  color: teal;
+}
+.deletebutton{
+  background-color: white;
+    color: teal;
+    
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.deletebutton:hover{
+  background-color: red;
+  color: white;
+}
